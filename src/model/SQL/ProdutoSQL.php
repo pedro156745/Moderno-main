@@ -11,7 +11,7 @@ class ProdutoSQL
         $sql = 'INSERT INTO tb_produto (nome_produto, quantidade, preco, nome_url, descricao_produto, categoria_id)
          VALUES(?,?,?,?,?,?)';
         return $sql;
-    }
+    }//
 
     public static function CONSULTAR_PRODUTO()
     {
